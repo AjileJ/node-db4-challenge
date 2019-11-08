@@ -1,21 +1,8 @@
-const db = require('../../db-config');
+const express = require("express");
+
+const db = require("./recipe.helper");
+
+const router = express.Router();
 
 
-function getRecipes() {
-  return db('recipe_book')
-}
-
-function getShoppingList(recipe_id) {
-  return db('recipe_book')
-  .where({'recipe.id': id })
-}
-
-function getInstructions(recipe_id) {
-
-}
-
-module.exports = {
-  getRecipes,
-  getShoppingList,
-  getInstructions
-}
+module.exports = router;

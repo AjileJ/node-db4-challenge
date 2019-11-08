@@ -1,4 +1,3 @@
-
 exports.seed = function(knex) {
   // Deletes ALL existing entries
   return knex('recipes').del()
@@ -11,4 +10,4 @@ exports.seed = function(knex) {
         {id: 4, name: 'wings'}
       ]);
     });
- };
+};

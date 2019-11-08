@@ -1,4 +1,3 @@
-
 exports.seed = function(knex) {
   // Deletes ALL existing entries
   return knex('ingredients').del()
@@ -12,4 +11,4 @@ exports.seed = function(knex) {
         {id: 5, name: 'tomato'}
       ]);
     });
-};
+ };
